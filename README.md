@@ -4,13 +4,13 @@
 
 ### Inventory Analytics • Sales Intelligence • Business Intelligence
 
-An interactive Power BI dashboard designed to help pharmacy businesses monitor inventory, reduce stock-outs, minimize expiry losses, and support data-driven operational decisions.
+An interactive Power BI dashboard designed to help pharmacy businesses monitor inventory, reduce stock-outs, minimize medicine expiry losses, and support data-driven operational decision-making.
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-02569B?style=flat)
-![Power Query](https://img.shields.io/badge/Power_Query-742774?style=flat)
-![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-0A66C2?style=flat)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-02569B?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power_Query-742774?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-0A66C2?style=for-the-badge)
 
 </div>
 
@@ -24,43 +24,63 @@ An interactive Power BI dashboard designed to help pharmacy businesses monitor i
 
 ---
 
+# Project Highlights
+
+- Interactive Power BI dashboard for pharmacy inventory and business monitoring.
+- Tracks medicine expiry, stock availability, and reorder requirements.
+- Identifies inventory risks and potential revenue loss.
+- Analyzes sales performance, customer purchasing behaviour, and payment trends.
+- Supports faster operational decision-making through KPI-driven dashboards.
+
+---
+
 # Table of Contents
 
-- Project Overview
-- Business Problem
-- Dashboard Modules
-- Business Insights
-- Business Recommendations
-- Business Impact
-- Tools & Technologies
-- Skills Demonstrated
-- Repository Structure
-- Future Improvements
-- Author
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Project Objectives](#project-objectives)
+- [Dashboard Modules](#dashboard-modules)
+- [Key Business Insights](#key-business-insights)
+- [Business Recommendations](#business-recommendations)
+- [Business Impact](#business-impact)
+- [Tools & Technologies](#tools--technologies)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Repository Structure](#repository-structure)
+- [Future Improvements](#future-improvements)
+- [Contact](#contact)
 
 ---
 
 # Project Overview
 
-This project demonstrates how Business Intelligence can be used to improve pharmacy operations by transforming raw sales and inventory data into actionable insights.
+Many pharmacy businesses manage sales and inventory using spreadsheets, making it difficult to monitor stock availability, medicine expiry, and overall business performance. This project demonstrates how Business Intelligence can transform operational data into actionable insights that support inventory planning, sales monitoring, and operational decision-making.
 
-The dashboard enables business owners to monitor sales performance, inventory health, medicine expiry, customer behaviour, and reorder requirements through an interactive Power BI solution.
+The dashboard consolidates inventory, sales, customer, and financial information into a single interactive reporting solution built with Power BI.
 
 ---
 
 # Business Problem
 
-Many pharmacy businesses rely on Excel to manage inventory and sales, making it difficult to identify operational issues before they impact business performance.
-
-Common challenges include:
+Pharmacy businesses commonly face operational challenges such as:
 
 - Medicines becoming out of stock before reorder decisions are made.
 - Expired medicines increasing inventory losses.
-- Limited visibility into high-demand medicines.
-- Manual reporting consuming operational time.
-- Lack of centralized business monitoring.
+- Limited visibility into medicines approaching expiry.
+- Difficulty identifying high-demand medicines.
+- Manual reporting and limited operational insights.
 
-This dashboard addresses these challenges by providing a single source of truth for operational decision-making.
+This dashboard addresses these challenges by providing centralized, real-time business visibility through interactive dashboards.
+
+---
+
+# Project Objectives
+
+- Monitor inventory health and medicine availability.
+- Track medicines approaching expiry.
+- Identify low-stock and out-of-stock medicines.
+- Support reorder planning using inventory insights.
+- Analyze sales performance and customer purchasing behaviour.
+- Provide executive-level KPIs for business monitoring.
 
 ---
 
@@ -68,93 +88,69 @@ This dashboard addresses these challenges by providing a single source of truth 
 
 ## Executive Overview
 
-Provides a high-level summary of business performance.
+<p align="center">
+<img src="images/executive analysis.png" width="100%">
+</p>
 
-**KPIs**
-
-- Total Revenue
-- Total Profit
-- Profit Margin
-- Total Customers
-- Total Transactions
-- Monthly Revenue Trend
-- Sales by Category
-- Revenue by Manufacturer
-- Top Selling Medicines
+Provides a high-level overview of revenue, profit, customers, transactions, sales trends, and key business KPIs for executive decision-making.
 
 ---
 
 ## Sales & Customer Analytics
 
-Analyzes customer behaviour and sales performance.
+<p align="center">
+<img src="images/sales_Analysis.png" width="100%">
+</p>
 
-**Includes**
-
-- Top Customers
-- Average Bill Value
-- Most Frequent Customer
-- Revenue Distribution by Day
-- Revenue by Time of Day
-- Most Profitable Medicines
-- Payment Mode Analysis
+Analyzes customer purchasing behaviour, payment trends, revenue patterns, top-performing medicines, and sales performance across different business dimensions.
 
 ---
 
 ## Inventory & Expiry Monitoring
 
-Supports proactive inventory management.
+<p align="center">
+<img src="images/inventory_&_expiry.png" width="100%">
+</p>
 
-**Includes**
-
-- Expired Medicines
-- Medicines Expiring within 7 Days
-- Medicines Expiring within 30 Days
-- Inventory Loss
-- Revenue at Risk
-- Monthly Expiry Trends
-- Category-wise Expiry Status
+Tracks medicine expiry, inventory health, inventory loss, revenue at risk, and medicines approaching expiry to support proactive inventory management.
 
 ---
 
 ## Stock Availability & Reorder Planning
 
-Monitors medicine availability and reorder priorities.
+<p align="center">
+<img src="images/low_Stock.png" width="100%">
+</p>
 
-**Includes**
-
-- Low Stock Medicines
-- Out-of-Stock Medicines
-- Medicine Stock Status
-- Reorder Levels
-- Top Medicines Requiring Reorder
+Identifies low-stock and out-of-stock medicines, monitors reorder levels, and prioritizes medicines requiring immediate replenishment.
 
 ---
 
-# Business Insights
+# Key Business Insights
 
-| KPI | Value |
-|------|-------|
+| Business KPI | Value |
+|--------------|------:|
 | Total Revenue | ₹19 Million |
 | Total Profit | ₹5 Million |
-| Profit Margin | 26% |
-| Expired Medicines | 5,000 |
-| Expiring within 7 Days | 130 |
-| Expiring within 30 Days | 344 |
+| Profit Margin | **26%** |
+| Expired Medicines | **5,000** |
+| Expiring within 7 Days | **130** |
+| Expiring within 30 Days | **344** |
 | Inventory Loss | ₹308 Million |
 | Revenue at Risk | ₹414 Million |
-| Low Stock Medicines | 1,000 |
-| Out of Stock Medicines | 29 |
-| Reorder Quantity | 597K Units |
+| Low Stock Medicines | **1,000** |
+| Out-of-Stock Medicines | **29** |
+| Total Reorder Level | **597K Units** |
 
 ---
 
 # Business Recommendations
 
-- Prioritize replenishment of critical medicines including **Amoxicillin** and **Azithromycin**.
-- Maintain sufficient inventory for high-demand medicines such as **Vitamin C**, **Ibuprofen**, and **Metformin**.
-- Implement proactive expiry monitoring to reduce inventory losses.
-- Schedule inventory reviews based on reorder levels.
-- Use customer purchasing trends to optimize stocking strategies.
+- Prioritize replenishment of high-demand medicines including **Amoxicillin**, **Azithromycin**, and **Vitamin C**.
+- Monitor medicines approaching expiry to reduce inventory loss.
+- Maintain safety stock for frequently purchased medicines.
+- Schedule periodic inventory reviews based on reorder levels.
+- Utilize customer purchasing behaviour to optimize inventory planning and promotional strategies.
 
 ---
 
@@ -162,12 +158,12 @@ Monitors medicine availability and reorder priorities.
 
 The dashboard enables pharmacy businesses to:
 
-- Reduce stock-out situations.
 - Improve inventory visibility.
-- Minimize expiry-related losses.
-- Support faster operational decisions.
+- Reduce stock-out situations.
+- Minimize losses caused by expired medicines.
+- Support proactive inventory planning.
 - Monitor business performance from a centralized dashboard.
-- Improve inventory planning using data-driven insights.
+- Enable faster and data-driven operational decision-making.
 
 ---
 
@@ -175,27 +171,28 @@ The dashboard enables pharmacy businesses to:
 
 | Category | Technologies |
 |-----------|--------------|
-| Dashboard | Power BI |
+| Dashboard Development | Power BI |
 | Data Source | Microsoft Excel |
 | Data Transformation | Power Query |
-| Calculations | DAX |
-| Visualization | Power BI Visuals |
+| Data Modeling | DAX |
+| Data Visualization | Power BI Visuals |
 
 ---
 
 # Skills Demonstrated
 
 - Business Intelligence
-- Data Visualization
+- Data Analytics
 - Dashboard Design
 - KPI Development
 - Inventory Analytics
 - Sales Analytics
 - Customer Analytics
+- Business Storytelling
+- Data Visualization
 - DAX
 - Power Query
 - Excel
-- Business Storytelling
 
 ---
 
@@ -217,15 +214,14 @@ pharmacy-business-intelligence-dashboard/
 │   ├── inventory_expiry_dashboard.png
 │   └── stock_reorder_dashboard.png
 │
-└──  README.md
-
+└── README.md
 ```
 
 ---
 
 <details>
 
-<summary><b>Future Improvements</b></summary>
+<summary><strong>Future Improvements</strong></summary>
 
 - Demand Forecasting using Machine Learning
 - Automated Inventory Alerts
@@ -237,6 +233,3 @@ pharmacy-business-intelligence-dashboard/
 </details>
 
 ---
-
-
-</div>
