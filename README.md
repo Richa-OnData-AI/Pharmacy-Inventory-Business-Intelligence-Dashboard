@@ -219,17 +219,3 @@ pharmacy-business-intelligence-dashboard/
 
 ---
 
-<details>
-
-<summary><strong>Future Improvements</strong></summary>
-
-- Demand Forecasting using Machine Learning
-- Automated Inventory Alerts
-- Supplier Performance Analytics
-- ABC Inventory Analysis
-- Forecast-based Reorder Planning
-- Real-time Database Integration
-
-</details>
-
----
