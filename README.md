@@ -19,7 +19,7 @@ An interactive Power BI dashboard designed to help pharmacy businesses monitor i
 # Dashboard Preview
 
 <p align="center">
-<img src="images/dashboard_overview.png" width="100%">
+<img src="images/pharma_dashboard.png" width="100%">
 </p>
 
 ---
